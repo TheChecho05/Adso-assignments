@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.fondo{
+    background-color:aqua;
+    height: 140vh;
+    position: relative;
+    display: flex;
+    box-sizing: border-box ;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.865);
+    width: 65%;
+    border-radius: 10px;
+    text-align: left;
+    height: 750px;
+    font-family: 'calibri';
+    margin: 0;
+}
+.top{
+    background-color: red;
+    margin: 0;
+    display: grid;
+    height: 10%;
+    border-radius: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.Nick{
+    margin-left: 5%;
+}
+.otros{
+    text-align: right;
+    margin-right: 45%;
+}
+.centro{
+    text-align: center;
+    text-justify: center;
+    margin-top: 5%;
+}
+.img{
+    margin-top: 5%;
+    height: 400px;
+    width: 470px;
+    border-radius: 50%;
+}
