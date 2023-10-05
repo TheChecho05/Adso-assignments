@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.fondo{
+    background-image: url(astro.jpg);
+    height: 140vh;
+    position: relative;
+    display: flex;
+    box-sizing: border-box ;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.865);
+    width: 65%;
+    border-radius: 10px;
+    text-align: left;
+    height: 750px;
+    font-family: 'calibri';
+    margin: 0;
+}
+.top{
+    background-color: rgba(243, 77, 77, 0.847);
+    margin: 0;
+    height: 10%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Nick{
+    margin-left: 35%;
+    transition: transform .1s;
+    cursor: pointer;
+}
+.otros{
+    text-align: right;
+    margin-right: 45%;
+    cursor: pointer;
+    transition: transform .1s;
+}
+.centro{
+    text-align: center;
+    text-justify: center;
+    margin-top: 10%;
+    transition: transform .1s;
+}
+.img{
+    height: 400px;
+    width: 450px;
+    border-radius: 50%;
+    transition: transform .1s;
+}
+.centro:hover {
+    transform: scale(1.1);
+}
+.Nick:hover {
+    transform: scale(1.2);
+}
+.otros:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.fondo{
+    background-image: url(astro.jpg);
+    height: 140vh;
+    position: relative;
+    display: flex;
+    box-sizing: border-box ;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.865);
+    width: 65%;
+    border-radius: 10px;
+    text-align: left;
+    height: 850px;
+    font-family: 'calibri';
+    margin: 0;
+}
+.top2{
+    background-color: rgba(243, 77, 77, 0.847);
+    margin: 0;
+    display: grid;
+    height: 10%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
